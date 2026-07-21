@@ -175,7 +175,7 @@ position:relative;
 
 .trunk{
 
-position:scroll;
+position:absolute;
 
 bottom:80px;
 
