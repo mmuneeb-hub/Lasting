@@ -1319,4 +1319,21 @@ font-size:35px;
 .voice-card audio {
     width: 100%;
     border-radius: 15px;
+}/* Mobile Fix */
+@media (max-width: 768px) {
+
+  .tree-section {
+    overflow-x: auto;
+    padding: 20px;
+  }
+
+  .tree {
+    width: 100%;
+    max-width: 600px;
+    height: 650px;
+    transform: scale(0.6);
+    transform-origin: top center;
+    margin: 0 auto;
+  }
+
 }
